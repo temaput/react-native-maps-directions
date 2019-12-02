@@ -170,6 +170,7 @@ class MapViewDirections extends Component {
 								}, [])
 						),
 						fare: route.fare,
+						waypoint_order: route.waypoint_order
 					});
 
 				} else {
